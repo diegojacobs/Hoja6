@@ -26,7 +26,7 @@ public class Hoja6 {
         int opcion = 0;
         while (opcion != 3)
         {
-            System.out.print("Eliga una opcion: ");
+            System.out.print("Escoge una opcion: ");
             System.out.print("1. Ingresar nueva persona");
             System.out.print("2. Desplegar conjunto mas grande");
             System.out.print("3. Salir");
@@ -38,7 +38,7 @@ public class Hoja6 {
                 int opcion2 = 0;
                 System.out.print("Ingrese Nombre: ");
                 name = _in.nextLine();
-                System.out.print("Eliga de que conjuntos es parte: ");
+                System.out.print("Indique de que conjuntos es parte: ");
                 System.out.print("1. Web");
                 System.out.print("2. Java");
                 System.out.print("3. Celular");
