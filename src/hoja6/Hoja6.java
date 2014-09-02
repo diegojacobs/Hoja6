@@ -7,7 +7,10 @@
 package hoja6;
 
 import java.util.Scanner;
-
+import java.util.Set;
+import java.util.HashSet;
+import java.util.TreeSet;
+import java.util.LinkedHashSet;
 /**
  *
  * @author Diego Jacobs 13160
@@ -22,7 +25,14 @@ public class Hoja6 {
         // TODO code application logic here
         
         Scanner _in  = new Scanner(System.in);
+        Set celular;
+        Set java;
+        Set web;
         
+        System.out.println("Escoge que tipo de conjunto desea trabajar: ");
+        System.out.println("1. HashSet");
+        System.out.println("2. TreeSet");
+        System.out.print("3. ");
         int opcion = 0;
         while (opcion != 3)
         {
