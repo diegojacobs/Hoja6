@@ -121,11 +121,19 @@ public class Hoja6 {
                     System.out.println("El conjunto mas grande es java: ");
                     System.out.println(java.toString());
                     System.out.println("De forma ascendente es: ");
+                    String[] cadena = new String[tamj];
+                    java.toArray(cadena);
+                    Arrays.sort(cadena);
+                    System.out.println(Arrays.toString(cadena));
                 }
                 else if ((tamc >= tamw) && (tamw >= tamj)){
                     System.out.println("El conjunto mas grande es celulares: ");
                     System.out.println(celular.toString());
                     System.out.println("De forma ascendente es: ");
+                    String[] cadena = new String[tamc];
+                    celular.toArray(cadena);
+                    Arrays.sort(cadena);
+                    System.out.println(Arrays.toString(cadena));
                 }
             }
                         
